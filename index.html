@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Details</title>
+    <style>
+        .continar{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            
+            
+        }
+        .food{
+            border: 2px solid springgreen;
+            border-radius: 7px;
+            width: 80%;
+            /* height: 100%; */
+            padding: 20px;
+            background-color: chartreuse;
+        }
+        .food > img{
+            border: 1px solid green;
+            width: 100%;
+            height: 60%;
+        }
+        .img{
+            /* height: 80%; */
+        }
+        .dad{
+            /* height: 70%; */
+        }
+        button{
+            background-color: deeppink;
+            
+        }
+        @media screen and (max-width: 576px) {
+           .continar{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+           } 
+           .food{
+            width: 60%;
+            padding: 10px;
+            border-radius: 5px;
+            /* height: 80%; */
+           }
+           .food > img{
+            height: 20%;
+           }
+           .dad{
+            height: 10%;
+           }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="continar">
+        <div class="food">
+            <h2>Hamburger</h2>
+            <img src="220px-Oberhafenkantine_(Hamburger_Rundstück).jpg" alt="">
+            <h3>Food Item- 01</h3>
+            <p>Price- 900Tk</p>
+            <p>The "Hamburger Rundstück" was popular already in 1869 and is believed to be a precursor to the modern
+                Hamburger.</p>
+            <button>Buy Now</button>
+        </div>
+
+        <div class="food">
+            <h3>Chicken Fri</h3>
+            <img class="dad" src="download.jpg" alt="">
+            <h3>Food Item- 02</h3>
+            <p>Price- 600Tk</p>
+            <p>Fried chicken, also known as Southern fried chicken, is a dish consisting of chicken pieces that have
+                been coated with seasoned flour or batter and pan-fried, deep fried, pressure fried, or air fried. The
+                breading adds a crisp coating or crust to the exterior of the chicken while retaining juices in the
+                meat.</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="food">
+            <h3>French Fri</h3>
+            <img src="download (1).jpg" alt="">
+            <h3>Food Item- 03</h3>
+            <p>Price- 800Tk</p>
+            <p>French fries are served hot, either soft or crispy, and are generally eaten as part of lunch or dinner or
+                by themselves as a snack, and they commonly appear on the menus of diners, fast food restaurants, pubs,
+                and bars.</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="food">
+            <h3>Pizza</h3>
+            <img src="download (2).jpg" alt="">
+            <h3>Food Item- 04</h3>
+            <p>Price- 1200Tk</p>
+            <p>Pizza is sold fresh or frozen, and whole or in portion-size slices. Methods have been developed to
+                overcome challenges such as preventing the sauce from combining with the dough, and producing a crust
+                that can be frozen and reheated without becoming rigid. There are frozen pizzas with raw ingredients and
+                self-rising crusts.</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="food">
+            <h3>Samoosa</h3>
+            <img src="150px-Samoosa.jpg" alt="">
+            <h3>Food Item- 05</h3>
+            <p>Price- 500Tk</p>
+            <p>Singaras may be eaten as a tea-time snack. They can also be prepared in a sweet form. Bengali singaras
+                tend to be triangular, filled with potato, peas, onions, diced almonds, or other vegetables.</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="food">
+            <h3>sweets</h3>
+            <img class="img" src="download (3).jpg" alt="">
+            <h3>Food Item- 06</h3>
+            <p>Price- 1000Tk
+            </p>
+            <p>This is a list of Bengali sweets and desserts. Most of these sweet dishes are unique to Bangladesh but
+                some of them originally came from other parts of the Subcontinent and re-made as a new Bangladeshi
+                versions of them. To know more check out: Bangladeshi cuisine, Bengali cuisine, Mughlai cuisine and
+                South Asian cuisine.</p>
+            <button>Buy Now</button>
+        </div>
+    </div>
+</body>
+
+</html>
